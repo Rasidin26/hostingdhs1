@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Voucher</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+            width: 400px;
+            height: 200px;
+        }
+        .voucher-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 400px;
+            height: 200px;
+        }
+        .voucher-code {
+            position: absolute;
+            top: 120px; /* posisi vertikal teks */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 22px;
+            font-weight: bold;
+            color: #000; /* warna teks */
+            background: rgba(255,255,255,0.7); /* opsional: biar teks jelas */
+            padding: 4px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <img src="{{rz3rbfhyfsh.png}}" class="voucher-bg">
+    <div class="voucher-code">{{code}}</div>
+</body>
+</html>
